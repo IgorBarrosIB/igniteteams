@@ -1,12 +1,11 @@
-import { Colors } from 'react-native/Libraries/NewAppScreen';
 import {Container} from './styles';
-import {SafeAreaView, Text} from 'react-native';
+import { Header } from '@components/Header';
 
 
 export function Groups() {
   return (
     <Container>
-      
+      <Header/>
     </Container>
   );
 }
