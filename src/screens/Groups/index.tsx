@@ -1,13 +1,12 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import styled from 'styled-components';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
+import {Container} from './styles';
+import {SafeAreaView, Text} from 'react-native';
+
 
 export function Groups() {
   return (
-    <View>
-        <Text>Testando 12345678</Text>
-    </View>
+    <Container>
+      
+    </Container>
   );
 }
-
-
